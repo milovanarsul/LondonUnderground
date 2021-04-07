@@ -93,21 +93,21 @@ if(!empty($_GET['status'])){
                             <a href="..\EWD\istoric.php#historysection7" class="item">Transport for London</a>
                         </div>
                     </div>
-                    <a href="..\EWD\main.php" class="active">Acas&#259</a>
-                    <div class="navmenu-left"><a href="..\EWD\main.php"><img src="..\EWD\Imagini\undergroundlogo.png" class="undergroundlogo"></a></div>
+                    <a href="..\EWD\index.php" class="active">Acas&#259</a>
+                    <div class="navmenu-left"><a href="..\EWD\index.php"><img src="..\EWD\Imagini\undergroundlogo.png" class="undergroundlogo"></a></div>
                 </div>
                 <div class="navmenu rpnavmenu1" id="rpnavmenu1id">
-                    <div class="navmenu-left"><a href="..\EWD\main.php"><img src="..\EWD\Imagini\undergroundlogo.png" class="undergroundlogo"></a></div>
+                    <div class="navmenu-left"><a href="..\EWD\index.phpp"><img src="..\EWD\Imagini\undergroundlogo.png" class="undergroundlogo"></a></div>
                     <a href="#" style="float:right;" onclick="document.getElementById('rpnavmenu1id').style.display='none';document.getElementById('rpnavmenuid').style.display='block'"><i class="fas fa-bars"></i></a>
                     <a href="#" style="margin-right:-35px;" onclick="document.getElementById('rpnavmenu1id').style.display='none';document.getElementById('rpnewslinks').style.display='block'"><i class="fas fa-chevron-circle-down"></i>   Navigare</a>           
                 </div>
                 <div class="rpnavmenu" id="rpnavmenuid" style="width: 100%;">
                     <ul style="list-style-type:none;">
                         <li style="padding:5px 16px;margin-bottom:30px;margin-right:30px;">
-                            <a href="..\EWD\main.php" style="float:left;"><img src="..\EWD\Imagini\undergroundlogo.png" class="undergroundlogo"></a>
+                            <a href="..\EWD\index.phpp" style="float:left;"><img src="..\EWD\Imagini\undergroundlogo.png" class="undergroundlogo"></a>
                             <a href="#" style="float:right;margin-top:20px;" onclick="document.getElementById('rpnavmenu1id').style.display='block';document.getElementById('rpnavmenuid').style.display='none'"><i class="fas fa-times"></i></a>
                         </li></br></br>
-                        <li><a href="..\EWD\main.php" style="text-decoration:underline;">Acas&#259</a></li>
+                        <li><a href="..\EWD\index.php" style="text-decoration:underline;">Acas&#259</a></li>
                         <li><a href="..\EWD\istoric.php" class="underlinenav">Istoric</a></li>
                         <li><a href="..\EWD\infrastructura.php" class="underlinenav">Infrastructur&#259</a></li>
                         <li><a href="..\EWD\calatorii.php" class="underlinenav">C&#259l&#259torii</a></li>
@@ -116,7 +116,7 @@ if(!empty($_GET['status'])){
                 <div class="rpnavmenu" id="rpnewslinks" style="width: 100%;">
                     <ul style="list-style-type:none;">
                         <li style="padding:5px 16px;margin-bottom:30px;margin-right:30px;">
-                            <a href="..\EWD\main.php" style="float:left;"><img src="..\EWD\Imagini\undergroundlogo.png" class="undergroundlogo"></a>
+                            <a href="..\EWD\index.php" style="float:left;"><img src="..\EWD\Imagini\undergroundlogo.png" class="undergroundlogo"></a>
                             <a href="#" style="float:right;margin-top:20px;" onclick="document.getElementById('rpnavmenu1id').style.display='block';document.getElementById('rpnewslinks').style.display='none'"><i class="fas fa-arrow-circle-up"></i></a>
                         </li></br></br>
                         <li><a href="#section1" class="underlinenav" onclick="document.getElementById('rpnavmenu1id').style.display='block';document.getElementById('rpnewslinks').style.display='none'">Metroul de noapte</a></li>
