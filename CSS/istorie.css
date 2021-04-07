@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color:white;
+    font-family: Helvetica, sans-serif;
+  }
+  html{
+    scroll-behavior:smooth;
+  }
+.timeline {
+    left:3cm;
+    position: relative;
+    width: 65%;
+    top:1cm;
+    bottom:3cm;
+    float:left;
+    margin-bottom: 2cm;
+    z-index:2;
+  }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color:blue;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  .container2 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    z-index:1;
+  }
+  
+  .container2::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid red;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .left2 {
+    left: 0;
+  }
+  
+  
+  .right2 {
+    left: 50%;
+  }
+  
+  .left2::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid red;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent red;
+  }
+  
+  .right2::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid ;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent red transparent transparent;
+  }
+  
+  .right2::after {
+    left: -16px;
+  }
+  
+  .content2 {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    border:5px solid red;
+  }
+  
+
+  #historysectionmain{
+    height:6050px;
+  }
+
+  #historysection0{
+    height:auto;
+  }
+  
+  #historysection1{
+    height: auto;
+  }
+  #historysection2{
+    height: auto;
+  }
+  #historysection3 {
+    height: auto;
+  }
+  #historysection4 {
+    height: auto;
+  }
+
+  #historysection5 {
+    height: auto;
+  }
+
+  #historysection6 {
+    height: auto;
+  }
+
+  #historysection7 {
+    height: auto;
+  }
+
+  @media only screen and (max-width:1000px) {
+    .timeline{
+      width:100%;
+      left:0px;
+      right:10px;
+      margin-bottom:10cm;
+    }
+    .container2{
+      width:50%;
+    }
+
+  }

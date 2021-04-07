@@ -1,0 +1,28 @@
+#calsectionmain{
+    height:5100px;
+}
+
+#calsection1{
+    height:1580px;
+}
+
+#calsection2{
+    height:355px;
+}
+
+#calsection3{
+    height:1550px;
+}
+
+#calsection4{
+    height:400px;
+}
+
+#calsection5{
+    height:1250px;
+}
+@media only screen and (max-width:1000px) {
+    .news{
+        margin-top:9cm;
+    }
+}

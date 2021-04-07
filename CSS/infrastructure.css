@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+    width:100%;
+    margin-right:10cm;
+  }
+  
+table, th, td {
+    text-align: center;
+    border:1px solid black;
+}
+
+#infsectionmain{
+  height:5150px;
+}
+
+#infsection1{
+  height:1700px;
+}
+
+#infsection2{
+  height:1350px;
+}
+
+#infsection3{
+  height: 2200px;
+}
+
+
+.tablestructure{
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+  top:0px;
+  width:1751px;
+  left:4%;
+  right:4%;
+  text-align: left;
+  float:left;
+  margin-right: 4cm;
+  color:black;
+  margin-bottom: 10px;
+  z-index:2;
+}
+
+@media only screen and (max-width:1000px) {
+    .news{
+        margin-top:9cm;
+    }
+    .tablestructure{
+        top:-300px;
+    }
+}
